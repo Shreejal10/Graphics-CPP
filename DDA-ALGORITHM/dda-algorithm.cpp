@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
 	int gd=DETECT, gm;
-	initgraph (&gd, &gm, "");
+	initgraph (&gd, &gm,"");
 //	initwindow(800,800);
 	float x0,y0,x1,y1,x,y,dx,dy,steps;
 	cout<<"Enter value of x0 and y0: ";
@@ -35,7 +35,7 @@ int main(){
 		x=x+Xincrement;
 		y=y+Yincrement;
 		putpixel (round(x),round(y),WHITE);
-//		delay(100);
+		delay(100);
 	}
 	getch();
 	closegraph();
