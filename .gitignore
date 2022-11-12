@@ -3,3 +3,6 @@
 *.o
 *.layout
 /Different Method
+/Rotation-Line
+/Scaling-Line
+/Translation-Line
